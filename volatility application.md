@@ -247,7 +247,7 @@ Ok, what have we done till so far?
 
 - I notice that there are multiple orders that occurred at the same transaction time, but also several orders that contain the same price. I remove those that happened at the same time, because those have the same price and therefore do not add any new information
 
-- Lastly, when I remove all the print statement, my code is able to calculate the volatility in below a millisecond (unit below is seconds). On average 200/300 microseconds
+- Lastly, when I remove all the print statement, my code is able to calculate the volatility in below a millisecond (unit below is seconds). On average 200/300 microseconds <br>
 ![image-2.png](attachment:image-2.png)
 
 - It is possible to do this faster. We have to code the function that calculates the volatility in C and then call this using cython.
